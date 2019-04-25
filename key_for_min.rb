@@ -1,5 +1,6 @@
 require 'pry'
 def key_for_min_value(name_hash)
+ binding.pry
   min_key = nil
   min_value = nil
   if name_hash = {}
