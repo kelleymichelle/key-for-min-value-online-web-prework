@@ -1,4 +1,4 @@
-require 'pry'
+
 def key_for_min_value(name_hash)
   if name_hash = {}
     return nil
@@ -13,5 +13,4 @@ def key_for_min_value(name_hash)
      end
     end 
   return min_key
-  binding.pry
 end
