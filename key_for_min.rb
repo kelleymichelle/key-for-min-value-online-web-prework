@@ -6,10 +6,11 @@ def key_for_min_value(name_hash)
     min_key = [ ]
     min_value = 0
       name_hash.each do |key, value|
+        binding.pry
         if value < min_value
           min_value << value
           min_key << key
-          binding.pry
+          
       end  
      end
     end 
